@@ -1,0 +1,35 @@
+---
+
+inherits:
+  - "strictness_veryhigh"
+
+pylint:
+  disable:
+    - "fixme"
+    - "missing-docstring"
+    - "missing-module-docstring"
+
+  options:
+    good-names:
+      - "i"
+      - "j"
+      - "k"
+      - "n"
+      - "x"
+      - "y"
+      - "fd"
+      - "logger"
+      - "router"
+      - "app"
+      - "env"
+    max-line-length: 109
+
+pep8:
+  options:
+    max-line-length: 109
+
+mypy:
+  run: true
+
+pep257:
+  run: false
